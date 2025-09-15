@@ -21,3 +21,18 @@ img {
   height: 50px;
   float: left;
 }
+
+.banner {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  animation: slide 12s infinite;
+}
+
+@keyframes slide {
+  0%   { background-image: url("https://img.freepik.com/premium-photo/professional-sport-brazil-volleyball-various-sports-balls-volleyballs_669646-15324.jpg"); }
+  33%  { background-image: url("https://tse1.mm.bing.net/th/id/OIP.e9Ekn8xyI2i9XgfTQoK8fQHaEs?rs=1&pid=ImgDetMain&o=7&rm=3"); }
+  66%  { background-image: url("https://editorial01.shutterstock.com/preview-440/13332147i/0c397068/Shutterstock_13332147i.jpg"); }
+  100% { background-image: url("https://tse2.mm.bing.net/th/id/OIP.Y1I7BvR95cTUwy-HGRTHfQAAAA?rs=1&pid=ImgDetMain&o=7&rm=3"); }
+}
